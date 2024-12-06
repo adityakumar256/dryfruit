@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
+    margin-top: 15px;
+    padding-left: 50px;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 10px;
+    color: #FFD700;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    display: flex;
+}
+
+a:hover {
+    color: blue;
+}
+
+.nav {
+    height: 50px;
+    width: 100%;
+    background-color: #556B2F;
+}
+
+body {
+    background-image: url('DALL·E\ 2024-12-05\ 20.36.04\ -\ A\ clean\ and\ modern\ website\ hero\ section\ for\ \'DryDelight\,\'\ featuring\ an\ olive\ green\ background.\ The\ design\ includes\ sharp\ and\ clear\ text\ reading\ \'DryDe.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+    /* display: flex;
+    flex-direction: column;
+    min-height: 100vh; */
+}
+
+section {
+    background-color:#F5F5DC;; /* Or any other color */
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+    border: 2px solid beige;
+}
+
+#home {
+    margin-top: 100vh; /* Push the first section below the background image */
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #556B2F;
+    color: white;
+    flex-shrink: 0;
+}
